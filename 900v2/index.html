@@ -3,6 +3,7 @@
 
 
 
+
 <link rel="stylesheet" href="../style.css">
 <script src="int64.js"></script>
 <script src="rop.js"></script>
@@ -24,29 +25,21 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 
 <br>
 <h1 style="font-size: 18px;">Payloads</h1>
-<button class="btn" onmouseover="msgs.innerHTML='Enable Some Debugging Functions Available on TestKit'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_todex()"> ToDex </button>
-<button class="btn" onmouseover="msgs.innerHTML='Dump Games to USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_dumper()"> App-Dumper </button>
-<button class="btn" onmouseover="msgs.innerHTML='Access this console Through FTP (Be careful what you do)'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_ftp()"> FTP </button>
-<button class="btn" onmouseover="msgs.innerHTML='Transfer Installed Games to USB Drive in exFAT'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_app2usb()"> App2USB </button>
-<button class="btn" onmouseover="msgs.innerHTML='Create a Backup of the Database and Users to a USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_dbackup()"> DB Backup </button>
-<button class="btn" onmouseover="msgs.innerHTML='Restore a Backup of the Database and Users from a USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_dbrestore()"> DB Restore </button>
-<br>
-<button class="btn" onmouseover="msgs.innerHTML='Enable System Updates'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_enablebUpdates()"> Enable Updates </button>
-<button class="btn" onmouseover="msgs.innerHTML='Disable System Updates'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_disableUpdates()"> Disable Updates </button>
-<button class="btn" onmouseover="msgs.innerHTML='Enable/Disable Browser History.'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_historyBlocker()"> History Blocker </button>
-<button class="btn" onmouseover="msgs.innerHTML='Dump a Console Kernel to a USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_kernelDump()"> Kernel Dumper </button>
-<button class="btn" onmouseover="msgs.innerHTML='Dump a Kernel Module to a USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_moduleDump()"> Module Dumper </button>
-<button class="btn" onmouseover="msgs.innerHTML='PS4 Debug for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_ps4debug()"> PS4 Debug </button>
-<br>
-<button class="btn" onmouseover="msgs.innerHTML='Disables the ASLR (Address space layout randomization)'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_disbAslr()"> Disable ASLR </button>
-<button class="btn" onmouseover="msgs.innerHTML='Disable IDU Mode if you have activated it by mistake'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_exitidu()"> Exit IDU </button>
-<button class="btn" onmouseover="msgs.innerHTML='Renames (fake) RIFs to (free) RIFs'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_rifRen()"> RIF Renamer </button>
-<button class="btn" onmouseover="msgs.innerHTML='Permanent UART for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_permUart()"> Permanent UART </button>
-<button class="btn" onmouseover="msgs.innerHTML='Required to Activate Cheats Through the PS4 Trainer Website'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_webrte()"> WebRTE </button>
+&nbsp;&nbsp; &nbsp;&nbsp;<button class="btn" onmouseover="msgs.innerHTML='Dump Games to USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_dumper()"> App-Dumper </button>
+
+
+
 
 <br>
-<a href="webactivator.html"><button class="btn" onmouseover="msgs.innerHTML='Activate Your User Account from the Console Browser'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" style="margin-left: 72px;"> Web-Activator </button></a>
-<button class="btn" onmouseover="msgs.innerHTML='Linux Loaders Menu'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="linux_group()"> Linux Loaders </button>
+<button class="btn" onmouseover="msgs.innerHTML='Enable System Updates'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_enablebUpdates()"> Enable Updates </button>
+<button class="btn" onmouseover="msgs.innerHTML='Disable System Updates'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_disableUpdates()"> Disable Updates </button>&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;<button class="btn" onmouseover="msgs.innerHTML='Dump a Console Kernel to a USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_kernelDump()"> Kernel Dumper </button>
+<button class="btn" onmouseover="msgs.innerHTML='Dump a Kernel Module to a USB Drive'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_moduleDump()"> Module Dumper </button>&nbsp; &nbsp; &nbsp; 
+<br>
+&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+
+<br>
+&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
 
 <button class="btn" onmouseover="msgs.innerHTML='Modify PS4 FAN Speed'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_fanthreshold()"> Fan Threshold </button><select id="tempC"></select>°C
 <br>
